@@ -23,28 +23,6 @@ def tictactoe():
 
     draw(positions)
 
-    # def names():
-    #     global p1, p2
-    #     yorn = input("Player 1, do you want to share your name or nickname with us ? If your answer is yes press Y: ")\
-    #         .upper()
-    #     if yorn == "Y":
-    #         p1 = input("What is your name ? ")
-    #     else:
-    #         print("Ok no problem")
-    #
-    #     yorn = input("Player 2, do you want to share your name or nickname with us ? If your answer is yes press Y: ")\
-    #         .upper()
-    #     if yorn == "Y":
-    #         p2 = input("What is your name ? ")
-    #         while p2 == p1:
-    #             print("Try again")
-    #             p2 = input("What is your name ? ")
-    #             continue
-    #     else:
-    #         print("Ok no problem")
-    #
-    # names()
-
     def marker_selection():
         starter = random.randint(1, 2)
         if starter == 1:
